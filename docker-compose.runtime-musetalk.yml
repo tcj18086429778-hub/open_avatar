@@ -1,0 +1,9 @@
+services:
+  open-avatar-chat:
+    volumes:
+      - ./src/handlers/client/rtc_client/client_handler_rtc.py:/root/open-avatar-chat/src/handlers/client/rtc_client/client_handler_rtc.py:ro
+    entrypoint:
+      - /bin/bash
+      - -lc
+      - cd /root/open-avatar-chat && uv run install.py --config config/chat_with_openai_compatible_bailian_cosyvoice_musetalk.yaml && uv run scripts/download_models.py --handler musetalk --source modelscope && exec uv run --no-sync src/demo.py --config=/root/open-avatar-chat/config/chat_with_openai_compatible_bailian_cosyvoice_musetalk.yaml
+    command: []
