@@ -1,0 +1,18 @@
+Open Avatar digital human project
+
+This project is a derivative work based on OpenAvatarChat.
+
+Original project:
+https://github.com/HumanAIGC-Engineering/OpenAvatarChat
+
+Original authors and contributors:
+HumanAIGC-Engineering and the OpenAvatarChat contributors.
+
+Original license:
+Apache License, Version 2.0. The full license text is preserved in the
+LICENSE file in this repository.
+
+This repository keeps the upstream license text and attribution notice.
+Local modifications include deployment configuration, Windows startup scripts,
+WebRTC/TURN connectivity fixes, FlashHead runtime tuning, and project-specific
+migration documentation.

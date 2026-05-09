@@ -82,6 +82,18 @@ https://服务器IP:8282/
 
 页面能打开但没有数字人画面时，优先检查 WebRTC/TURN 网络连通性。
 
+## 上游来源与版权说明
+
+本项目基于 OpenAvatarChat 进行二次开发。
+
+- 原项目地址：https://github.com/HumanAIGC-Engineering/OpenAvatarChat
+- 原作者与贡献者：HumanAIGC-Engineering 及 OpenAvatarChat contributors
+- 原项目许可证：Apache License, Version 2.0
+- 许可证全文：见本仓库根目录 `LICENSE`
+- 版权和归属说明：见本仓库根目录 `NOTICE`
+
+本仓库保留原项目许可证文本和上游来源说明。当前仓库中的改动主要包括部署配置、Windows 启动脚本、WebRTC/TURN 连通性修复、FlashHead 音画同步调优和迁移文档。
+
 ## 许可证
 
 本项目基于 OpenAvatarChat 改造，保留原项目 Apache-2.0 许可证。
